@@ -26,3 +26,13 @@ export interface AccountDBPost {
     id: string,
     owner_id: string
 }
+
+export interface AccountModelPost {
+    id: string,
+    ownerId: string
+}
+
+export interface EditBalance {
+    id: string
+    value: number
+}
